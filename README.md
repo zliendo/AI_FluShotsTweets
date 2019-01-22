@@ -30,3 +30,13 @@ Training a model to classify tweets that are speaking against the flu shot
 |CNN with Embeddings | [classifiers/CNN_LSTM_classifier.ipynb](classifiers/CNN_LSTM_classifier.ipynb)|88%|
 |LSTM with an Attention layer and using Embeddings | [classifiers/CNN_LSTM_classifier.ipynb](classifiers/CNN_LSTM_classifier.ipynb)|90%|
 
+## Model Python modules
+
+| Model | Python module |
+| --- | --- |
+| CNN | [classifiers/icd9_cnn_model.py](classifiers/icd9_cnn_model.py)  |
+| LSTM_ATT | [classifiers/icd9_lstm_att_model.py](classifiers/icd9_lstm_att_model.py)   |
+| Attention Layer |[classifiers/attention_util.py](classifiers/attention_util.py)  |
+
+
+

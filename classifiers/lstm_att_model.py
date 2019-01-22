@@ -10,6 +10,8 @@ from keras import backend as K
 import attention_util
 from keras import optimizers
 
+# Author: Zenobia Liendo 
+
 def build_lstm_att_model(input_seq_length, 
                          max_vocab, external_embeddings,  embedding_dim, embedding_matrix,                         
                           training_dropout_keep_prob,num_classes):

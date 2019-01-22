@@ -6,6 +6,8 @@ from sklearn.metrics import (brier_score_loss, precision_score, recall_score,
                              f1_score)
 from sklearn.metrics import confusion_matrix
 
+# Author: Zenobia Liendo 
+
 #------------------------------------------------------------------------------------
 #Preprocessing Tweets
 #------------------------------------------------------------------------------------

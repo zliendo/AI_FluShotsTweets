@@ -14,5 +14,7 @@ The Labeling process was done in different steps
 | Step | Task | Program |
 |---|---|----|
 |1 | Change format of the file to 5 tweets in a row in order for MTurkers to label 5 tweets at a time | [labeling_tweets/src/Converting_To_Mturk_Format.ipynb](labeling_tweets/src/Converting_To_Mturk_Format.ipynb) |
-|2| Mturk custom template to handle 5 tweets in the same review, it is faster for mturkers. Each record was reviewed by 3 mturkers|[labeling_tweets/src/mturk flu tweet custom template.txt](labeling_tweets/src/mturk flu tweet custom template.txt) |
+|2| Mturk custom template to handle 5 tweets in the same review, it is faster for mturkers. Each record was reviewed by 3 mturkers|[labeling_tweets/src/mturk_flu_tweet_custom_template.txt](labeling_tweets/src/mturk_flu_tweet_custom_template.txt) |
+|3| Upload files to Mturk with custom template.. wait for Mturkers to label.. download results | |
+|4| Mturk results were files with 5 tweets in each row, repeated 3 times with the labels from the 3 mturkers. This program produce a file with one row for each tweet and consolidating mturkers label by choosing the label with more votes |[labeling_tweets/src/processing_mturk_file_3workers.ipynb](labeling_tweets/src/processing_mturk_file_3workers.ipynb) |
 

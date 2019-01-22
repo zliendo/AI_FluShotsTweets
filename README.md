@@ -18,3 +18,15 @@ The Labeling process was done in different steps
 |3| Upload files to Mturk with custom template.. wait for Mturkers to label.. download results | |
 |4| Mturk results were files with 5 tweets in each row, repeated 3 times with the labels from the 3 mturkers. This program produce a file with one row for each tweet and consolidating mturkers label by choosing the label with more votes |[labeling_tweets/src/processing_mturk_file_3workers.ipynb](labeling_tweets/src/processing_mturk_file_3workers.ipynb) |
 
+Mturkers labeled 7000 tweets.
+
+## Training Model to Classify Tweets
+
+Training a model to classify tweets that are speaking against the flu shot 
+
+| Model | Notebook | roc_auc |
+|----|----|---|
+|Baseline Logistic Regression | [classifiers/twitter_flue_baseline.ipynb](classifiers/twitter_flue_baseline.ipynb)|83%|
+|CNN with Embeddings | [classifiers/CNN_LSTM_classifier.ipynb](classifiers/CNN_LSTM_classifier.ipynb)|88%|
+|LSTM with an Attention layer and using Embeddings | [classifiers/CNN_LSTM_classifier.ipynb](classifiers/CNN_LSTM_classifier.ipynb)|90%|
+

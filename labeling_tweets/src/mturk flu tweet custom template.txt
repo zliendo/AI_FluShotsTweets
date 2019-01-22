@@ -1,0 +1,171 @@
+<!-- HIT template: Categorization-v3.0 --><!-- The following snippet enables the 'responsive' behavior on smaller screens -->
+<meta content="width=device-width,initial-scale=1" name="viewport" />
+<section class="container" id="Categorization"><!-- Instructions (collapsible) -->
+<div class="row">
+<div class="col-xs-12 col-md-12">
+<div class="panel panel-primary"><!-- WARNING: the ids "collapseTrigger" and "instructionBody" are being used to enable expand/collapse feature --><a class="panel-heading" href="javascript:void(0);" id="collapseTrigger"><strong>Categorization Instructions</strong> <span class="collapse-text">(Click to expand)</span> </a>
+<div class="panel-body" id="instructionBody">
+<p>Does the tweet state the belief that the flu shot causes illness or is ineffective at preventing the flu?. See the <strong>Selection Criteria</strong> below for more details.</p>
+<!-- Detailed instructions for the Worker-->
+
+<table class="table table-condensed table-striped table-responsive">
+	<tbody>
+	</tbody>
+	<colgroup>
+		<col class="col-xs-2 col-md-2" />
+		<col class="col-xs-5 col-md-5" />
+		<col class="col-xs-5 col-md-5" />
+	</colgroup>
+	<!-- By explaining what is or is not included in a category, the accuracy of the answers may increase. -->
+	<tbody>
+		<tr>
+			<th>Category</th>
+			<th>Includes</th>
+		</tr>
+		<!-- Add instructions for each category below. Don't forget to rename the categories. -->
+		<tr>
+			<td>Yes</td>
+			<td>Examples:
+			<ul>
+				<li>&quot;Do yourself a favor and don&#39;t get the flu shot&quot;</li>
+				<li>&quot;The CDC been lying to us about the flu shot since the 80&#39;s..it&#39;s not safe it&#39;s not guaranteed..it&#39;s a gamble..&quot;</li>
+				<li>&quot;My son almost taken from me bc of the flushot it&#39;s horrific to see a child suffer because we trusted our doctors.&quot;</li>
+				<li>&quot;I&#39;ve been eating healthy, working out, drinking my water, got my damn flu shot And somehow I get the flu...in May??&quot;</li>
+			</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>No</td>
+			<td>Tweets unrelated to those claims, even if they express a negative sentiment or common side effects (e.g: Soreness, redness, Headache, light fever, Muscle aches) that go away within few days. Examples:
+			<ul>
+				<li>&quot;I got my flu shot today and my arm is so sore..&quot;</li>
+				<li>&quot;Glad I got my flu shot yesterday because everyone here sounds sick&quot;</li>
+				<li>&quot;I will miss a free flu shot! I&#39;m so sad&quot;</li>
+				<li>&quot;that flu shot got me a headache&quot;</li>
+			</ul>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<!-- End instructions --><!-- Categorization Layout -->
+
+<div class="row" id="workContent">
+<div class="col-xs-12 col-sm-8 content">${Tweet_1}</div>
+
+<div class="col-xs-12 col-sm-4 fields">
+<div class="form-group"><!-- Question for the Worker --><label class="group-label">Choose a category:</label> <!-- Input from the Worker -->
+
+<div class="btn-group-vertical" data-toggle="buttons" id="CategoryInputs"><label class="btn btn-default"><input id="category1" name="categories" required="" type="radio" value="Yes" />Yes</label> <label class="btn btn-default"> <input id="category2" name="categories" required="" type="radio" value="No" />No</label></div>
+</div>
+</div>
+</div>
+
+<div class="row" id="workContent">
+<div class="col-xs-12 col-sm-8 content">${Tweet_2}</div>
+
+<div class="col-xs-12 col-sm-4 fields">
+<div class="form-group"><!-- Question for the Worker --><label class="group-label">Choose a category:</label> <!-- Input from the Worker -->
+
+<div class="btn-group-vertical" data-toggle="buttons" id="CategoryInputs"><label class="btn btn-default"><input id="category1" name="categories2" required="" type="radio" value="Yes" />Yes</label> <label class="btn btn-default"> <input id="category2" name="categories2" required="" type="radio" value="No" />No</label></div>
+</div>
+</div>
+</div>
+
+<div class="row" id="workContent">
+<div class="col-xs-12 col-sm-8 content">${Tweet_3}</div>
+
+<div class="col-xs-12 col-sm-4 fields">
+<div class="form-group"><!-- Question for the Worker --><label class="group-label">Choose a category:</label> <!-- Input from the Worker -->
+
+<div class="btn-group-vertical" data-toggle="buttons" id="CategoryInputs"><label class="btn btn-default"><input id="category1" name="categories3" required="" type="radio" value="Yes" />Yes</label> <label class="btn btn-default"> <input id="category2" name="categories3" required="" type="radio" value="No" />No</label></div>
+</div>
+</div>
+</div>
+
+<div class="row" id="workContent">
+<div class="col-xs-12 col-sm-8 content">${Tweet_4}</div>
+
+<div class="col-xs-12 col-sm-4 fields">
+<div class="form-group"><!-- Question for the Worker --><label class="group-label">Choose a category:</label> <!-- Input from the Worker -->
+
+<div class="btn-group-vertical" data-toggle="buttons" id="CategoryInputs"><label class="btn btn-default"><input id="category1" name="categories4" required="" type="radio" value="Yes" />Yes</label> <label class="btn btn-default"> <input id="category2" name="categories4" required="" type="radio" value="No" />No</label></div>
+</div>
+</div>
+</div>
+
+<div class="row" id="workContent">
+<div class="col-xs-12 col-sm-8 content">${Tweet_5}</div>
+
+<div class="col-xs-12 col-sm-4 fields">
+<div class="form-group"><!-- Question for the Worker --><label class="group-label">Choose a category:</label> <!-- Input from the Worker -->
+
+<div class="btn-group-vertical" data-toggle="buttons" id="CategoryInputs"><label class="btn btn-default"><input id="category1" name="categories5" required="" type="radio" value="Yes" />Yes</label> <label class="btn btn-default"> <input id="category2" name="categories5" required="" type="radio" value="No" />No</label></div>
+</div>
+</div>
+</div>
+</section>
+<!-- End Categorization Layout --><!-- Please note that Bootstrap CSS/JS and JQuery are 3rd party libraries that may update their url/code at any time. Amazon Mechanical Turk (MTurk) is including these libraries as a default option for you, but is not responsible for any changes to the external libraries --><!-- External CSS references -->
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" rel="stylesheet" /><!-- Open internal style sheet -->
+<style type="text/css">#collapseTrigger{
+    color:#fff;
+    display: block;
+    text-decoration: none;
+  }
+  #submitButton{
+    white-space: normal;
+  }
+  #instructionBody table{
+    font-size: 14px;
+  }
+  #instructionBody table caption{
+    text-align: left;
+    padding: 0 0 5px 0;
+  }
+  #CategoryInputs{
+    display: block;
+    margin-top: 10px;
+  }
+  .content{
+    margin-bottom: 15px;
+  }
+  .radio:first-of-type{
+    margin-top: -5px;
+  }
+</style>
+<!-- Close internal style sheet --><!-- External JS references --><script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script><!-- Open internal javascript --><script>
+    $(document).ready(function() {
+      // Instructions expand/collapse
+      var content = $('#instructionBody');
+      var trigger = $('#collapseTrigger');
+      content.hide();
+      $('.collapse-text').text('(Click to expand)');
+      trigger.click(function(){
+        content.toggle();
+        var isVisible = content.is(':visible');
+        if(isVisible){
+          $('.collapse-text').text('(Click to collapse)');
+        }else{
+          $('.collapse-text').text('(Click to expand)');
+        }
+      });
+      // end expand/collapse
+
+      // highlight selected category
+      $("#CategoryInputs input:radio").change(function(){
+        $("#CategoryInputs input:radio").parent().removeClass("btn-success");
+        $("#CategoryInputs input:radio").parent().addClass("btn-default");
+        if($(this).is(":checked")){
+          $(this).parent().removeClass("btn-default");
+          $(this).parent().addClass("btn-success");
+        }else{
+          $(this).parent().removeClass("btn-success");
+          $(this).parent().addClass("btn-default");
+        }
+      });
+      // end highlight
+    });
+  </script><!-- Close internal javascript -->

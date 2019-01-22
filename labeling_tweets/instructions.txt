@@ -1,0 +1,16 @@
+Does the tweet state the belief that the flu shot causes illness or is ineffective at preventing the flu?
+
+Examples for "YES" Category:
+- "Do yourself a favor and don't get the flu shot"
+- "The CDC been lying to us about the flu shot since the 80's..it's not safe  it's not guaranteed..it's a gamble.."
+- "My son almost taken from me bc of the flushot it's horrific to see a child suffer because we trusted our doctors."
+- "I've been eating healthy, working out, drinking my water, got my damn flu shot And somehow I get the flu...in May??"
+
+
+Examples for "NO" Category:
+Tweets unrelated to those claims, even if they express a negative sentiment or 
+common side effects (e.g: Soreness, redness, Headache, light fever, Muscle aches) that go away within few days.
+- "I got my flu shot today and my arm is so sore.."
+- "Glad I got my flu shot yesterday because everyone here sounds sick"
+- "I will miss a free flu shot! I'm so sad"
+- "that flu shot got me a headache"
